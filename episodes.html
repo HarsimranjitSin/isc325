@@ -1,0 +1,68 @@
+<!-- episodes.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Favorite Episodes</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #FF6347; /* Same background color as index.html and characters.html */
+      color: #FFF5E1; /* Text color */
+      border: 10px solid #444; /* Border around the page */
+      padding: 20px; /* Padding around the content */
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #FFF5E1;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #FFD700;
+    }
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+    table th, table td {
+      padding: 8px;
+      text-align: left;
+      border: 1px solid #444;
+    }
+    video {
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Top Episodes</h1>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="characters.html">Characters</a> |
+      <a href="episodes.html">Episodes</a> |
+      <a href="fanhub.html">Fan Hub</a>
+    </nav>
+  </header>
+
+  <section>
+    <table>
+      <tr><th>Season</th><th>Episode</th><th>Title</th></tr>
+      <tr><td>1</td><td>1</td><td>The Vanishing of Will Byers</td></tr>
+      <tr><td>3</td><td>8</td><td>The Battle of Starcourt</td></tr>
+    </table>
+
+    <video width="320" height="240" controls>
+      <source src="media/stranger_clip.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: white;
+}
+a {
+  color: cyan;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#eleven {
+  font-weight: bold;
+  color: pink;
+}
+.main-char {
+  font-style: italic;
+  color: lightgreen;
+}
